@@ -438,9 +438,6 @@ I changed the return statement from `return [song.to_dict() for song in songs[:-
 **Side-effect check:**  
 I ran `pytest tests/test_playlists.py`, and all playlist tests passed. I also manually checked the playlist songs endpoint to confirm that songs still appeared in playlist position order and that the final song was now included.
 
-## AI Usage
-
-## AI Usage
 
 ## AI Usage
 
@@ -455,7 +452,6 @@ Third, I used AI while debugging Issue #1. It pointed out that `today.weekday() 
 I also course-corrected during the project: instead of using the duplicate search issue, I switched to Issue #5 after finding the clearer root cause, `songs[:-1]`, in `get_playlist_songs()`.
 ## Commit History
 
-## Commit History
 
 I worked on the required branch:
 
